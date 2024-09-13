@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Tariq's Twitter unfollow",
+  "version": "0.1",
+  "description": "unfollow",
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png"
+    },
+    "default_title": "Tariq"
+  },
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
